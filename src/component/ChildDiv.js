@@ -1,6 +1,6 @@
 export default function ChildDiv({ children }) {
     const style = {
-        height: '99vh',
+        height: '100vh',
         scrollSnapAlign: 'start',
     };
 

@@ -8,6 +8,7 @@ import ChildDiv from "./component/ChildDiv";
 import discord from './assets/discord.png';
 import telegram from './assets/telegram.png';
 import github from './assets/github.png';
+import Link from "./component/Link";
 
 function App() {
     function calculateAge() {
@@ -21,8 +22,9 @@ function App() {
         <Container>
             <ChildDiv>
                 <Twemoji options={{className: 'twemoji'}}>
-                    <h1 className="no-space"><span className="primary">danny</span><span className="transparent">.ink</span> 🎨</h1>
-                    <p>
+                    <h1 className="no-space shadow"><span className="primary">danny</span><span
+                        className="transparent">.ink</span> 🎨</h1>
+                    <p className="shadow">
                         i'm a {calculateAge()} year old who loves computers & art 😼
                     </p>
                 </Twemoji>
@@ -34,20 +36,37 @@ function App() {
             </ChildDiv>
 
             <ChildDiv>
-                <h1>notable projects</h1>
-                <p>these are some of my public, better works</p>
+                <h1 className="primary shadow">about me</h1>
                 <hr/>
                 <Twemoji options={{className: 'twemoji'}}>
-                    <p>
-                        <strong>📁 <a href="https://foob.cc/" rel="noreferrer" target="_blank">foob.cc</a></strong>
+                    <p className="shadow">
+                        i've been programming for about 8 years
                         <br/>
-                        custom <a href="https://getsharex.com/" rel="noreferrer" target="_blank">sharex</a> file host
+                        i'm very proficient in html/css/js/node.js
+                        <br/>
+                        i'm also decent at java and python
+                        <br/>
+                        <br/>
+                        contact me on <Link href="https://t.me/dannymxmx">telegram</Link> regarding commissions
+                    </p>
+                </Twemoji>
+            </ChildDiv>
+
+            <ChildDiv>
+                <h1 className="primary shadow">notable projects</h1>
+                <p className="shadow">these are some of my public, better works</p>
+                <hr/>
+                <Twemoji options={{className: 'twemoji'}}>
+                    <p className="shadow">
+                        <strong>📁 <Link href="https://foob.cc/">foob.cc</Link></strong>
+                        <br/>
+                        custom <Link href="https://getsharex.com/">sharex</Link> file host
                         <br/>
                         <span className="mini">node.js / mongodb / express</span>
                     </p>
                     <hr className="mini-hr"/>
-                    <p>
-                        <strong>📈 <a href="https://github.com/mxmmxx/quaid" rel="noreferrer" target="_blank">quaid</a></strong>
+                    <p className="shadow">
+                        <strong>📈 <Link href="https://github.com/mxmmxx/quaid">quaid</Link></strong>
                         <br/>
                         advanced roblox trade bot
                         <br/>
@@ -55,17 +74,6 @@ function App() {
                     </p>
                 </Twemoji>
             </ChildDiv>
-
-            {/*<ChildDiv>
-                <h1>commissions</h1>
-                <Twemoji options={{className: 'twemoji'}}>
-                    <p>
-                        i'm always looking for programming commissions 😁
-                        <br/>
-                        please contact me on telegram.
-                    </p>
-                </Twemoji>
-            </ChildDiv>*/}
         </Container>
     );
 }
