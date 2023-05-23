@@ -17,7 +17,7 @@
     font-size: calc(10px + 1vmin);
 }
 
-a, a:visited, a:hover, a:active {
+a, a:visited, a:hover, a:active, .primary {
     color: #7780ff;
     text-decoration: none;
 }

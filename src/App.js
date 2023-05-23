@@ -21,7 +21,7 @@ function App() {
         <Container>
             <ChildDiv>
                 <Twemoji options={{className: 'twemoji'}}>
-                    <h1 className="no-space"><a>danny</a><span className="transparent">.ink</span> 🎨</h1>
+                    <h1 className="no-space"><span className="primary">danny</span><span className="transparent">.ink</span> 🎨</h1>
                     <p>
                         i'm a {calculateAge()} year old who loves computers & art 😼
                     </p>
