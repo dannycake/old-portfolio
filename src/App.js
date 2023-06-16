@@ -11,13 +11,6 @@ import github from './assets/github.png';
 import Link from "./component/Link";
 
 function App() {
-    function calculateAge() {
-        const birthday = new Date(2005, 6, 16);
-        const difference = Date.now() - birthday.getTime();
-        const years = difference / (1000 * 60 * 60 * 24 * 365);
-        return Math.floor(years);
-    }
-
     return (
         <Container>
             <ChildDiv>
@@ -25,7 +18,7 @@ function App() {
                     <h1 className="no-space shadow"><span className="primary">danny</span><span
                         className="transparent">.ink</span> 🎨</h1>
                     <p className="shadow">
-                        i'm a {calculateAge()} year old who loves computers & art 😼
+                        i'm an 18 year old who loves computers & art 😼
                     </p>
                 </Twemoji>
                 <hr/>
