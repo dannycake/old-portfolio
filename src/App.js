@@ -24,7 +24,7 @@ function App() {
                 <hr/>
 
                 <Icon src={discord} alt="discord" link="https://discord.com/users/142709738721902592"/>
-                <Icon src={telegram} alt="telegram" link="https://t.me/dannymxmx"/>
+                <Icon src={telegram} alt="telegram" link="https://t.me/dannydotink"/>
                 <Icon src={github} alt="github" link="https://github.com/mxmmxx"/>
             </ChildDiv>
 
