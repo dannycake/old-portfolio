@@ -40,7 +40,7 @@ function App() {
                         i'm also decent at java and python
                         <br/>
                         <br/>
-                        contact me on <Link href="https://t.me/dannymxmx">telegram</Link> regarding commissions
+                        contact me on <Link href="https://t.me/dannydotink">telegram</Link> regarding commissions
                     </p>
                 </Twemoji>
             </ChildDiv>
